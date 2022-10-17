@@ -1,0 +1,255 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.nav-link {
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 400;
+}
+.homeBg {
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.darkLayer {
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 100%;
+  height: 100%;
+}
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.icon1 {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  font-size: 14px;
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  text-decoration: none;
+}
+@media screen and (max-width: 991.9px) {
+  .navbar-nav {
+    background-color: #fff;
+  }
+}
+@media screen and (max-width: 991.9px) {
+  .nav-link {
+    color: black !important;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 13px;
+  }
+}
+.aboutImg {
+  position: relative;
+  margin-bottom: 75px;
+  padding-left: 30px;
+}
+.aboutImg::after {
+  content: "";
+  background-image: url(images/dots.png);
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  bottom: -30px;
+  left: 0px;
+  z-index: -1;
+}
+.bar {
+  width: 100%;
+  border-radius: 5px;
+  background: #f7f7f7;
+  box-shadow: 0px 2px 7px rgb(0 0 0 / 15%) inset;
+}
+.bar1 {
+  background-color: rgb(0, 0, 0);
+  width: 95%;
+  height: 100%;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.bar2 {
+  background-color: rgb(0, 0, 0);
+  width: 80%;
+  height: 100%;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.bar3 {
+  background-color: rgb(0, 0, 0);
+  width: 90%;
+  height: 100%;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.aboutButton1 {
+  background-color: rgb(24, 24, 24);
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 13px;
+  transition: 0.5s;
+  margin-right: 5px;
+  border: #000 solid 1px;
+}
+.aboutButton2 {
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 13px;
+  transition: 0.5s;
+}
+.aboutButton1:hover {
+  background: rgb(255, 255, 255);
+  text-decoration: none;
+  color: #000;
+}
+.aboutButton2:hover {
+  background-color: rgb(24, 24, 24);
+  color: #fff;
+  text-decoration: none;
+}
+.servicesIcons {
+  transition: 0.5s;
+}
+.services:hover .servicesIcons {
+  color: #fff;
+  background-color: rgb(20, 20, 20) !important;
+}
+.h2Title {
+  text-align: center;
+  padding: 0;
+  font-weight: 900;
+  font-size: 40px;
+}
+.h2Title {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  z-index: 1;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.h2Title::after {
+  content: "";
+  background-image: url(images/dots.png);
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  left: 0px;
+  bottom: -10px;
+  z-index: -1;
+}
+.portfolioImg {
+  position: relative;
+}
+.portfolioLayer {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background: rgba(255, 255, 255, 0.95);
+  opacity: 0;
+  margin-top: 10px;
+  transition: 0.6s;
+}
+.portfolioImg:hover .portfolioLayer {
+  margin-top: 0px !important;
+  opacity: 1;
+}
+.caption1 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.portfolioIcon {
+  background-color: black;
+  border: solid 1px black;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h6Caption {
+  padding-bottom: 40px;
+  transition: 0.5s;
+}
+.portfolioImg:hover .h6Caption {
+  padding-bottom: 15px !important;
+}
+.portfolioIcon:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: #000;
+}
+.indicator {
+  width: 10px !important;
+  height: 10px !important;
+  margin: 5px 7px !important;
+  border-radius: 50%;
+}
+.indicator:hover {
+  opacity: 1;
+}
+.indicator {
+  background: #869791 !important;
+}
+.contactIcon {
+  font-size: 25px;
+  margin-bottom: 15px;
+  width: 60px;
+  height: 60px;
+  background: #f4f4f4;
+  border-radius: 50%;
+}
+.contactParent:hover .contactIcon {
+  background-color: rgb(12, 12, 12);
+  color: #fff;
+}
+.contactIcon {
+  transition: 0.5s;
+}
+.contactButton {
+  transition: 0.5s;
+  border: #000 solid 1px !important;
+}
+.contactButton:hover {
+  background-color: rgba(255, 255, 255, 0) !important;
+  color: #000 !important;
+}
+.link2 {
+  margin: 0 15px;
+  color: rgb(0, 0, 0) !important;
+  font-weight: 700 !important;
+  border: none !important;
+  background-color: rgba(255, 255, 255, 0);
+}
+button {
+  border: none !important;
+  outline: none !important;
+}
+html {
+  scroll-behavior: smooth ;
+
+}
